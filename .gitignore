@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Report output (screenshots, logs, videos)
+output/
+allure-results/
+allure-report/
+test-results/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Coverage (if using nyc or jest)
+coverage/
+nyc_output/
+
+# Logs
+*.log
+
+# Temp files
+tmp/
+temp/
