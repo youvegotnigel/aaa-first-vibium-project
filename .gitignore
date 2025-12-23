@@ -9,6 +9,7 @@ output/
 allure-results/
 allure-report/
 test-results/
+*.png
 
 # Environment files
 .env
