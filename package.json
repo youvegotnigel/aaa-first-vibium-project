@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "hello": "node hello.js"
+    "hello": "node hello.js",
+    "test": "CLICKER_PATH=./node_modules/@vibium/darwin-arm64/bin/clicker vitest run",
+    "test:ui": "CLICKER_PATH=./node_modules/@vibium/darwin-arm64/bin/clicker vitest --ui",
+    "test:watch": "CLICKER_PATH=./node_modules/@vibium/darwin-arm64/bin/clicker vitest"
   },
   "keywords": [],
   "author": "youvegotnigel",
   "license": "ISC",
   "dependencies": {
     "vibium": "^0.1.2"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.16"
   }
 }
