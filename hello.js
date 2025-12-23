@@ -14,8 +14,8 @@ fs.writeFileSync('screenshot1.png', png1)
 console.log('Saved screenshot1.png')
 
 // Login
-vibe.find('#user-name').fill('standard_user')
-vibe.find('#password').fill('secret_sauce')
+vibe.find('#user-name').type('standard_user')
+vibe.find('#password').type('secret_sauce')
 vibe.find('#login-button').click()
 
 const app_logo = vibe.find('.app_logo')
