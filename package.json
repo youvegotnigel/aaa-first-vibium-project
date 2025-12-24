@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "hello": "node hello.js",
-    "test": "CLICKER_PATH=./node_modules/@vibium/darwin-arm64/bin/clicker vitest run",
+    "test": "vitest run",
     "test:ui": "CLICKER_PATH=./node_modules/@vibium/darwin-arm64/bin/clicker vitest --ui",
     "test:watch": "CLICKER_PATH=./node_modules/@vibium/darwin-arm64/bin/clicker vitest"
   },
